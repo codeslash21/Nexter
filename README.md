@@ -7,4 +7,4 @@
 
 # Nexter
 
-A clean and modern real-estate landing page designed to showcase properties, attract potential buyers, and deliver a premium browsing experience. Built with a desktop-first approach, layout was created using modern CSS features like grid and flexbox. For modular css code Sass framework has been used and BEM methodology has been used for class naming.
+A clean and modern real-estate landing page designed to showcase properties, attract potential buyers, and deliver a premium browsing experience. Built with a desktop-first approach, layout was created using modern CSS features like **`grid`** and **`flexbox`**. For modular css code **`Sass`** framework has been used and **`BEM`** methodology has been used for class naming.
