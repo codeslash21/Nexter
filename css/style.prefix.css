@@ -44,13 +44,13 @@ body {
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
 }
-@media only screen and (max-width: var(--bp-large)) {
+@media only screen and (max-width: 62.5em) {
   .container {
     grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);
     grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
   }
 }
-@media only screen and (max-width: var(--bp-medium)) {
+@media only screen and (max-width: 50em) {
   .container {
     grid-template-rows: 6rem calc(100vh - 6rem);
   }
@@ -134,7 +134,7 @@ body {
   display: flex;
   justify-content: center;
 }
-@media only screen and (max-width: var(--bp-large)) {
+@media only screen and (max-width: 62.5em) {
   .sidebar {
     grid-column: 1/-1;
     grid-row: 1/2;
@@ -164,7 +164,7 @@ body {
 .nav-btn::after {
   transform: translateY(1.2rem);
 }
-@media only screen and (max-width: var(--bp-large)) {
+@media only screen and (max-width: 62.5em) {
   .nav-btn {
     margin-top: 0;
     margin-right: 3rem;
@@ -191,12 +191,12 @@ body {
   grid-row-gap: 1.5rem;
   justify-content: center;
 }
-@media only screen and (max-width: var(--bp-medium)) {
+@media only screen and (max-width: 50em) {
   .header {
     grid-column: 1/-1;
   }
 }
-@media only screen and (max-width: var(--bp-small)) {
+@media only screen and (max-width: 37.5em) {
   .header {
     padding: 5rem;
   }
@@ -246,7 +246,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-@media only screen and (max-width: var(--bp-medium)) {
+@media only screen and (max-width: 50em) {
   .realtors {
     grid-column: 1/-1;
   }
@@ -258,12 +258,12 @@ body {
   grid-row-gap: 5vh;
   align-items: center;
 }
-@media only screen and (max-width: var(--bp-medium)) {
+@media only screen and (max-width: 50em) {
   .realtors__list {
     grid-template-columns: repeat(3, min-content max-content);
   }
 }
-@media only screen and (max-width: var(--bp-small)) {
+@media only screen and (max-width: 37.5em) {
   .realtors__list {
     grid-template-columns: min-content max-content;
   }
@@ -315,7 +315,7 @@ body {
   grid-template-columns: repeat(6, 1fr);
   align-items: center;
 }
-@media only screen and (max-width: var(--bp-medium)) {
+@media only screen and (max-width: 50em) {
   .story__pictures {
     grid-column: 1/-1;
     padding: 6rem;
@@ -327,7 +327,7 @@ body {
   grid-column: 2/6;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
 }
-@media only screen and (max-width: var(--bp-medium)) {
+@media only screen and (max-width: 50em) {
   .story__img--1 {
     grid-column: 1/5;
     grid-row: 1/-1;
@@ -340,7 +340,7 @@ body {
   z-index: 10;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
 }
-@media only screen and (max-width: var(--bp-medium)) {
+@media only screen and (max-width: 50em) {
   .story__img--2 {
     grid-row: 1/-1;
     width: 100%;
@@ -355,7 +355,7 @@ body {
   justify-content: center;
   align-items: start;
 }
-@media only screen and (max-width: var(--bp-medium)) {
+@media only screen and (max-width: 50em) {
   .story__content {
     grid-column: 1/-1;
     grid-row: 5/6;
